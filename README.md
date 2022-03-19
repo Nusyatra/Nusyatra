@@ -6,11 +6,8 @@
 
 * Телефон: +7 (987) 649-70-79
 * Skype: Nusyatra
-* Email: \www.nusyatra@gmail.com\
-* Email: 
-* someone@foo.bar: kryvetskistud@gmail.com.
-
-Для следующих отчетов изменить `connectionString` (берется из `appsettings.json`). Пример:
+* Email: www.nusyatra@gmail.com
+* GitHub: [Nusyatra](https://github.com/Nusyatra)
 
 ## Education
 
@@ -20,25 +17,9 @@ Courses:
 | Course  | Course time   |
 | ------- | -------- |
 | English   | 2006-2007    |
-| JavaScript   | 2021 to present    |
+| RS School. JS/Frontend. Stage#1   | 2022 to present    |
 
-
-
-
-
-# Chikhireva Anna
-
-***
-<code>***</code>
-
-
-
-
-***
-
-![Alt-текст](Путь к файлу "Подпись")
-
-### Skills
+## Skills
 * XML/XSD, JSON :star::star::star::star::star:
 * XSLT :star::star::star::star:
 * HTML, CSS :star::star::star:
@@ -47,48 +28,29 @@ Courses:
 * SQL :star::star:
 
 
-### Education
-
-====
-
-University: Moscow Power Engineering Institute (Technical University), Informatics in economics
-
-Courses: 
-
-| Course  | Course time   |
-| ------- | -------- |
-| English   | 2006-2007    |
-| JavaScript   | 2021 to now    |
-
-
-### About me
-********* 
-I was born in Smolensk and now I live in Volgograd. Мarried and have 2 children.
-
-
-Languages:
-English - Intermediate/Upper-intermediate (according to the online test at EFset Logo www.efset.org)
-EFset Score
-Russian - Native
-
+## Code Examples
+This function 
 ```
-$a = 5; 
-$b = 3; 
-$c = $a + $b; 
-``` 
+function getMaxSubSum(arr) {
+    let maxSum = 0;
+    let partSum = 0;
 
-Текст 1 
-********* 
-Текст 2 
-====
+    for (let item of arr) { 
+      partSum += item; 
+      maxSum = Math.max(maxSum, partSum); 
+      if (partSum < 0) partSum = 0;
+    }
+    return maxSum;
+    }
+```
 
-* Элемент списка 1 
-* Элемент списка 2 
-    + Элемент второго уровня списка 1 
-    + Элемент второго уровня списка 2 
-        - Элемент третьего уровня списка 1 
-        - Элемент третьего уровня списка 2 
-        - Элемент третьего уровня списка 3
+## About me
+I was born in Smolensk and now I live in Volgograd.
 
-[Текст ссылки][Тег1]
-[Тег1][Адрес ссылки]
+Мarried and have 2 children.
+
+I have been working as a `system analyst` since 2011.
+
+## Languages
+1. English - B1
+2. Russian - Native
